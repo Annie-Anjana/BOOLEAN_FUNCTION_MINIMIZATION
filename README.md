@@ -42,7 +42,7 @@ output f1,f2;
 assign#2 f1=(~a&~b&~c&~d)|(a&~c&~d)|(~b&c&~d)|(~a&b&c&d)|(b&~c&d);
 assign#2 f2=(x&~y&z)|(~x&~y&z)|(~w&x&y)|(w&~x&y)|(w&x&y);
 endmodule
-``
+```
 
 **RTL realization**
 
